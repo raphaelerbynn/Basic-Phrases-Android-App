@@ -12,31 +12,31 @@ public class Spanish extends AppCompatActivity {
 
     public void buttonTapped(View view){
 
-        LanguageTemplate.hello = "Bonjour";
-        LanguageTemplate.howareyou = "Comment vas-tu?";
-        LanguageTemplate.iamfrom = "Je suis de...";
-        LanguageTemplate.whatsyourname = "Quel est votre nom?";
-        LanguageTemplate.mynameis = "Mon nom est ...";
-        LanguageTemplate.ilivein = "J'habite à ...";
-        LanguageTemplate.please = "S'il vous plaît";
-        LanguageTemplate.yourewelcome = "Bienvenue";
-        LanguageTemplate.wheredoyoulive = "Où habites-tu?";
-        LanguageTemplate.whereis =  "Où est ... ";
-        LanguageTemplate.doyouspakenglissh = "Parlez vous anglais?";
-        LanguageTemplate.thankyou = "Je vous remercie";
+        LanguageTemplate.hello = "¡Buenos días! ";
+        LanguageTemplate.howareyou = "¿Cómo está usted? ";
+        LanguageTemplate.iamfrom = "Yo soy de...";
+        LanguageTemplate.whatsyourname = "¿Cómo se llama usted? ";
+        LanguageTemplate.mynameis = "Me llamo... ";
+        LanguageTemplate.ilivein = "¿Puede ayudarme?";
+        LanguageTemplate.please = "Por favor ";
+        LanguageTemplate.yourewelcome = "Bienvenidos ";
+        LanguageTemplate.wheredoyoulive = "¿Puede ayudarme?";
+        LanguageTemplate.whereis =  "¿Dónde está / Dónde están... ";
+        LanguageTemplate.doyouspakenglissh = "¿Hablas inglés?";
+        LanguageTemplate.thankyou = "(Muchas) Gracias ";
 
-        LanguageTemplate.helloS = R.raw.hello;
-        LanguageTemplate.howareyouS = R.raw.howareyou;
-        LanguageTemplate.iamfromS = R.raw.iamfrom;
-        LanguageTemplate.whatsyournameS = R.raw.whatsyourname;
-        LanguageTemplate.mynameisS = R.raw.mynameis;
-        LanguageTemplate.iliveinS = R.raw.ilivein;
-        LanguageTemplate.pleaseS = R.raw.please;
-        LanguageTemplate.yourewelcomeS = R.raw.yourewelcome;
-        LanguageTemplate.wheredoyouliveS = R.raw.wheredoyoulive;
-        LanguageTemplate.whereisS =  R.raw.whereis;
-        LanguageTemplate.doyouspakenglisshS = R.raw.doyouspakenglissh;
-        LanguageTemplate.thankyouS = R.raw.thankyou;
+        LanguageTemplate.helloS = R.raw.hello_spain;
+        LanguageTemplate.howareyouS = R.raw.howareyou_spain;
+        LanguageTemplate.iamfromS = R.raw.iamfrom_spain;
+        LanguageTemplate.whatsyournameS = R.raw.whatsyourname_spain;
+        LanguageTemplate.mynameisS = R.raw.mynameis_spain;
+        LanguageTemplate.iliveinS = R.raw.whereareyoufrom_spain;
+        LanguageTemplate.pleaseS = R.raw.please_spain;
+        LanguageTemplate.yourewelcomeS = R.raw.welcome_spain;
+        LanguageTemplate.wheredoyouliveS = R.raw.canyouhelpme_spain;
+        LanguageTemplate.whereisS =  R.raw.whereis_spain;
+        LanguageTemplate.doyouspakenglisshS = R.raw.doyouspeakenglish_spain;
+        LanguageTemplate.thankyouS = R.raw.thankyou_spain;
 
         languageTemplate.tapped(view);
 
