@@ -10,6 +10,7 @@
         android:id="@+id/gridLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#7BA556"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -17,34 +18,46 @@
 
         <Button
             android:id="@+id/hello"
-            android:onClick="buttonTapped"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/gradient_normal"
+            android:onClick="buttonTapped"
             android:text="Hello"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            app:layout_column="0"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
             app:layout_gravity="fill"
             app:layout_row="0"
-            app:layout_column="0" />
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/howareyou"
-            android:onClick="buttonTapped"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/gradient_normal"
+            android:onClick="buttonTapped"
             android:text="How are &#10;you?"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            app:layout_column="1"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
             app:layout_gravity="fill"
             app:layout_row="0"
-            app:layout_column="1" />
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/iamfrom"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/gradient_normal"
             android:onClick="buttonTapped"
             android:text="I am from..."
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
             app:layout_column="0"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
@@ -53,46 +66,62 @@
 
         <Button
             android:id="@+id/whatsyourname"
-            android:onClick="buttonTapped"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/gradient_normal"
+            android:onClick="buttonTapped"
             android:text="What is &#10;your name?"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            app:layout_column="1"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
             app:layout_gravity="fill"
             app:layout_row="1"
-            app:layout_column="1" />
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/mynameis"
-            android:onClick="buttonTapped"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/gradient_normal"
+            android:onClick="buttonTapped"
             android:text="My name is..."
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            app:layout_column="0"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
             app:layout_gravity="fill"
             app:layout_row="2"
-            app:layout_column="0" />
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/wheredoyoulive"
-            android:onClick="buttonTapped"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/gradient_normal"
+            android:onClick="buttonTapped"
             android:text="Where do&#10; you live?"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            app:layout_column="1"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
             app:layout_gravity="fill"
             app:layout_row="2"
-            app:layout_column="1" />
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/ilivein"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/gradient_normal"
             android:onClick="buttonTapped"
             android:text="Can you &#10; help me?"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
             app:layout_column="0"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
@@ -101,22 +130,30 @@
 
         <Button
             android:id="@+id/please"
-            android:onClick="buttonTapped"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/gradient_normal"
+            android:onClick="buttonTapped"
             android:text="Please"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            app:layout_column="1"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
             app:layout_gravity="fill"
             app:layout_row="3"
-            app:layout_column="1" />
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/whereis"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/gradient_normal"
             android:onClick="buttonTapped"
             android:text="Where is ..."
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
             app:layout_column="0"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
@@ -125,39 +162,51 @@
 
         <Button
             android:id="@+id/doyouspeakenglish"
-            android:onClick="buttonTapped"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/gradient_normal"
+            android:onClick="buttonTapped"
             android:text="Do you &#10;speak English?"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            app:layout_column="1"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
             app:layout_gravity="fill"
             app:layout_row="4"
-            app:layout_column="1" />
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/thankyou"
-            android:onClick="buttonTapped"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/gradient_normal"
+            android:onClick="buttonTapped"
             android:text="Thank you"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            app:layout_column="0"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
             app:layout_gravity="fill"
             app:layout_row="5"
-            app:layout_column="0" />
+            app:layout_rowWeight="1" />
 
         <Button
             android:id="@+id/welcome"
-            android:onClick="buttonTapped"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:background="@drawable/gradient_normal"
+            android:onClick="buttonTapped"
             android:text="Welcome"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            app:layout_column="1"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1"
             app:layout_gravity="fill"
             app:layout_row="5"
-            app:layout_column="1" />
+            app:layout_rowWeight="1" />
 
     </androidx.gridlayout.widget.GridLayout>
 

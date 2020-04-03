@@ -3,6 +3,7 @@ package com.mountain.basicphrases;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.gridlayout.widget.GridLayout;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 
@@ -51,6 +52,8 @@ public class German extends AppCompatActivity {
         languageTemplate = new LanguageTemplate();
 
         LanguageTemplate.mContext = this;
+
+
 
     }
 }
