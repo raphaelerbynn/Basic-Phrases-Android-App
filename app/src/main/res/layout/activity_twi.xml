@@ -151,7 +151,7 @@
             android:layout_margin="3dp"
             android:background="@drawable/gradient_normal"
             android:onClick="buttonTapped"
-            android:text="Where is ..."
+            android:text="I don't&#10;understand"
             android:textColor="#FFFFFF"
             android:textSize="14sp"
             app:layout_column="0"

@@ -14,7 +14,9 @@
         android:id="@+id/langIcon"
         android:layout_width="80dp"
         android:layout_height="90dp"
-        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
         app:srcCompat="@drawable/chinese" />
 
     <LinearLayout

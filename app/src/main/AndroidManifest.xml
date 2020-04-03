@@ -1,21 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mountain.basicphrases">
+    package="com.mountain.basicphrases" >
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@drawable/icon_app"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".Twi" />
-        <activity android:name=".Italian" />
-        <activity android:name=".Chinese" />
-        <activity android:name=".Spanish" />
-        <activity android:name=".German" />
-        <activity android:name=".French" />
-        <activity android:name=".MainActivity">
+        android:theme="@style/AppTheme" >
+        <activity
+            android:label="Basic Phrases Help" android:name=".Help" >
+        </activity>
+        <activity
+            android:label="About" android:name=".About" />
+        <activity
+            android:name=".Twi"
+            android:label="Translates to Twi" />
+        <activity
+            android:name=".Italian"
+            android:label="Translates to Italian" />
+        <activity
+            android:name=".Chinese"
+            android:label="Translates to Chinese" />
+        <activity
+            android:name=".Spanish"
+            android:label="Translates to Spanish" />
+        <activity
+            android:name=".German"
+            android:label="Translates to German" />
+        <activity
+            android:name=".French"
+            android:label="Translates to French" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,6 +1,7 @@
 package com.mountain.basicphrases;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
 public class About extends AppCompatActivity {

@@ -1,11 +1,15 @@
 package com.mountain.basicphrases;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -51,9 +55,37 @@ public class MainActivity extends AppCompatActivity {
 
     };
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
 
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.main_menu, menu);
 
+        return super.onCreateOptionsMenu(menu);
+    }
 
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        super.onOptionsItemSelected(item);
+
+        switch (item.getItemId()){
+
+            case R.id.help:
+                intent = new Intent(getApplicationContext(), Help.class);
+                startActivity(intent);
+                return true;
+
+            case R.id.about:
+                intent = new Intent(getApplicationContext(), About.class);
+                startActivity(intent);
+                return true;
+
+            default:
+                return false;
+
+        }
+
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

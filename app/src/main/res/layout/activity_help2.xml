@@ -7,4 +7,33 @@
     android:layout_height="match_parent"
     tools:context=".Help">
 
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10dp"
+        android:text="This app is a simple project on some basic phrases of some languages(French, Italian, Spanish, Chinese and German Twi).
+&#10;It works offline.&#10;
+
+&#10; How it works &#10;
+
+&#10;The first(Home) page consists of the languages available in the app.&#10;
+
+&#10;When each one is clicked, it has some basic phrases in it, which when each phrase is clicked,
+it translates it in the language chosen for you and also writes it below as a pop-up for you.&#10;
+
+&#10;Aim&#10;
+
+&#10;This aids in helping you to communicates with someone who speaks the languages in the app.&#10;
+
+&#10;Thank you...&#10;"
+        android:textSize="18sp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

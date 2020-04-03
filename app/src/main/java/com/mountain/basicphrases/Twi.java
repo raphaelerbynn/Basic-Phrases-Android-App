@@ -12,31 +12,31 @@ public class Twi extends AppCompatActivity {
 
     public void buttonTapped(View view){
 
-        LanguageTemplate.hello = "Bonjour";
-        LanguageTemplate.howareyou = "Comment vas-tu?";
-        LanguageTemplate.iamfrom = "Je suis de...";
-        LanguageTemplate.whatsyourname = "Quel est votre nom?";
-        LanguageTemplate.mynameis = "Mon nom est ...";
-        LanguageTemplate.ilivein = "J'habite à ...";
-        LanguageTemplate.please = "S'il vous plaît";
-        LanguageTemplate.yourewelcome = "Bienvenue";
-        LanguageTemplate.wheredoyoulive = "Où habites-tu?";
-        LanguageTemplate.whereis =  "Où est ... ";
-        LanguageTemplate.doyouspakenglissh = "Parlez vous anglais?";
-        LanguageTemplate.thankyou = "Je vous remercie";
+        LanguageTemplate.hello = "Agoo";
+        LanguageTemplate.howareyou = "ɛte sɛn?";
+        LanguageTemplate.iamfrom = "Me firi ...";
+        LanguageTemplate.whatsyourname = "Yɛferɛ wo sɛn?";
+        LanguageTemplate.mynameis = "Yɛferɛ me ...";
+        LanguageTemplate.ilivein = "Mi tii ...";
+        LanguageTemplate.please = "Mepa wo kyɛw";
+        LanguageTemplate.yourewelcome = "Akwaaba";
+        LanguageTemplate.wheredoyoulive = "Wo ti hinfa?";
+        LanguageTemplate.whereis =  "Mente aseɛ";
+        LanguageTemplate.doyouspakenglissh = "Woka borɔfo kasa?";
+        LanguageTemplate.thankyou = "Meda wo ase pii";
 
-        LanguageTemplate.helloS = R.raw.hello;
-        LanguageTemplate.howareyouS = R.raw.howareyou;
-        LanguageTemplate.iamfromS = R.raw.iamfrom;
-        LanguageTemplate.whatsyournameS = R.raw.whatsyourname;
-        LanguageTemplate.mynameisS = R.raw.mynameis;
-        LanguageTemplate.iliveinS = R.raw.ilivein;
-        LanguageTemplate.pleaseS = R.raw.please;
-        LanguageTemplate.yourewelcomeS = R.raw.yourewelcome;
-        LanguageTemplate.wheredoyouliveS = R.raw.wheredoyoulive;
-        LanguageTemplate.whereisS =  R.raw.whereis;
-        LanguageTemplate.doyouspakenglisshS = R.raw.doyouspakenglissh;
-        LanguageTemplate.thankyouS = R.raw.thankyou;
+        LanguageTemplate.helloS = R.raw.hello_twi;
+        LanguageTemplate.howareyouS = R.raw.howareyou_twi;
+        LanguageTemplate.iamfromS = R.raw.iamfrom_twi;
+        LanguageTemplate.whatsyournameS = R.raw.whatsyourname_twi;
+        LanguageTemplate.mynameisS = R.raw.mynameis_twi;
+        LanguageTemplate.iliveinS = R.raw.ilivein_twi;
+        LanguageTemplate.pleaseS = R.raw.please_twi;
+        LanguageTemplate.yourewelcomeS = R.raw.welcome_twi;
+        LanguageTemplate.wheredoyouliveS = R.raw.wheredoyoulive_twi;
+        LanguageTemplate.whereisS =  R.raw.idontunderstand_twi;
+        LanguageTemplate.doyouspakenglisshS = R.raw.doyouspeakenglish_twi;
+        LanguageTemplate.thankyouS = R.raw.thankyou_twi;
 
         languageTemplate.tapped(view);
 

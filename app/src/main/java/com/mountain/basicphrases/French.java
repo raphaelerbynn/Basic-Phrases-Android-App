@@ -13,6 +13,7 @@ public class French extends AppCompatActivity {
 
     LanguageTemplate languageTemplate;
 
+
     public void buttonTapped(View view){
 
         LanguageTemplate.hello = "Bonjour";
@@ -56,6 +57,7 @@ public class French extends AppCompatActivity {
         languageTemplate = new LanguageTemplate();
 
         LanguageTemplate.mContext = this;
+
 
     }
 
